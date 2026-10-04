@@ -1,0 +1,15 @@
+{
+  "name": "Steve: Way of Shinobi Wiki",
+  "short_name": "Way of Shinobi Wiki",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0e1210",
+  "theme_color": "#0e1210",
+  "icons": [
+    {
+      "src": "assets/img/logo.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
