@@ -1,10 +1,99 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Document shinobi NPCs, enemies, summons, companions and mission mobs."><meta name="theme-color" content="#0e1210"><title>Entities — Way of Shinobi Wiki</title><link rel="icon" href="assets/img/logo.png"><link rel="stylesheet" href="assets/css/style.css"><link rel="manifest" href="site.webmanifest"></head><body><div class="site-shell"><header class="topbar"><div class="wrap nav">
-<a class="brand" href="index.html"><img src="assets/img/logo.png" alt="Way of Shinobi logo"><span class="brand-text"><strong>Way of Shinobi</strong><span>Player Wiki</span></span></a>
-<nav class="navlinks"><a data-nav href="index.html">Home</a><a data-nav href="getting-started.html">Start</a><a data-nav href="clans-jutsu.html">Clans & Jutsu</a><a data-nav href="items.html">Items</a><a data-nav href="entities.html">Entities</a><a data-nav href="changelog.html">Updates</a></nav>
-<div class="search-wrap"><input class="search" data-search aria-label="Search wiki" placeholder="Search wiki..."><span class="search-kbd">/</span><div class="search-results" data-search-results></div></div>
-<button class="menu-btn" data-menu aria-label="Open menu">Menu</button>
-</div></header><div class="mobile-drawer"><a href="index.html">Home</a><a href="getting-started.html">Getting Started</a><a href="clans-jutsu.html">Clans & Jutsu</a><a href="items.html">Items</a><a href="entities.html">Entities</a><a href="villages.html">Villages & NPCs</a><a href="missions.html">Missions</a><a href="progression.html">Progression & Chakra</a><a href="controls.html">Controls</a><a href="faq.html">FAQ</a><a href="changelog.html">Changelog</a><a href="credits.html">Credits</a></div><section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="index.html">Home</a> / Entities</div><h1>Entities</h1><p class="page-lead">Document shinobi NPCs, enemies, summons, companions and mission mobs.</p><img class="page-icon" src="assets/img/genin.png" alt=""></div></section><main class="wrap article-layout"><aside class="toc"><div class="toc-title">On this page</div><a href="#groups">Entity Groups</a><a href="#fields">What Every Entity Page Should Show</a><a href="#template">Entity Template</a></aside><article class="article"><section id="groups"><h2>Entity Groups</h2><div class="entry-grid"><div class="entry"><img src="assets/img/genin.png" alt=""><div><h3>Genin</h3><p>Recruitable shinobi NPCs and village identification.</p></div></div><div class="entry"><img src="assets/img/nukenin.png" alt=""><div><h3>Nukenin</h3><p>Hostile or special missing-nin encounters.</p></div></div><div class="entry"><img src="assets/img/mission-crate.png" alt=""><div><h3>Mission Enemies</h3><p>Bandits and enemies tied to mission objectives.</p></div></div><div class="entry"><img src="assets/img/progression.png" alt=""><div><h3>Player Units</h3><p>Dogs, puppets, clones, golems and other owned units.</p></div></div></div></section><section id="fields"><h2>What Every Entity Page Should Show</h2><ul><li>Where it appears and how it spawns.</li><li>Health, damage and important combat behavior.</li><li>Village / faction / owner relationship.</li><li>Drops, rewards or recruitment rules.</li><li>Special mechanics and interactions.</li></ul></section><section id="template"><h2>Entity Template</h2><div class="placeholder"><strong>Standalone template included</strong>Duplicate <code>templates/entity-template.html</code> to create a detailed article for any mob, companion or summon.</div></section></article></main><footer class="footer"><div class="wrap"><div class="footer-grid">
-<div><div class="brand"><img src="assets/img/logo.png" alt=""><span class="brand-text"><strong>Steve: Way of Shinobi</strong><span>Community Wiki Template</span></span></div><p>A clean player-facing knowledge base for your Minecraft Fabric mod. Replace the placeholder copy as the mod evolves.</p></div>
-<div><h4>Explore</h4><a href="getting-started.html">Getting Started</a><a href="clans-jutsu.html">Clans & Jutsu</a><a href="items.html">Items</a><a href="entities.html">Entities</a></div>
-<div><h4>Reference</h4><a href="controls.html">Controls</a><a href="faq.html">FAQ</a><a href="changelog.html">Changelog</a><a href="credits.html">Credits</a></div>
-</div><div class="tiny">Unofficial player wiki for Steve: Way of Shinobi. Naruto-inspired fan project. Minecraft is a trademark of Mojang Studios.</div></div></footer></div><script src="assets/js/site.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Каталог существ, NPC, противников, призывов и спутников.">
+  <meta name="theme-color" content="#0e1210">
+  <title>Существа — Way of Shinobi Wiki</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">S</span>
+      <span><strong>Way of Shinobi</strong><small>Вики по моду</small></span>
+    </a>
+    <nav class="navlinks" aria-label="Основная навигация">
+      <a href="index.html" class="">Главная</a>
+      <a href="getting-started.html" class="">Начало игры</a><a href="entities.html" class="active">Существа</a><a href="items.html" class="">Предметы</a><a href="clans.html" class="">Кланы</a><a href="jutsu.html" class="">Техники</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumbs"><a href="index.html">Главная</a> / Существа</div>
+      <h1>Существа</h1>
+      <p class="page-lead">Каталог существ, NPC, противников, призывов и спутников.</p>
+    </div>
+  </section>
+  <div class="wrap">
+    <article class="article">
+
+      <section>
+        <h2>Как пользоваться разделом</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Здесь можно сделать общий список существ с короткими описаниями и ссылками на подробные карточки.
+        </div>
+      </section>
+
+      <section>
+        <h2>Шиноби и NPC</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Добавьте генинов, нукенинов, учителей, продавцов и других NPC.
+        </div>
+      </section>
+
+      <section>
+        <h2>Спутники и призывы</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Добавьте собак Инузука, клонов, кукол, големов и других управляемых или призываемых существ.
+        </div>
+      </section>
+
+      <section>
+        <h2>Противники</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Добавьте враждебных мобов, их характеристики, способности, места появления и награды.
+        </div>
+      </section>
+
+      <section>
+        <h2>Шаблон карточки существа</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Для каждой сущности удобно указывать: название, тип, здоровье, урон, поведение, место появления, дроп и особые механики.
+        </div>
+      </section>
+
+      <div class="page-nav">
+        <a class="btn primary" href="index.html">← На главную</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="brand">
+        <span class="brand-mark">S</span>
+        <span><strong>Steve: Way of Shinobi</strong><small>Игровая вики</small></span>
+      </div>
+      <p>Заготовка вики для игроков. Содержимое можно постепенно дополнять по мере развития мода.</p>
+    </div>
+    <div class="footer-links">
+      <a href="getting-started.html">Начало игры</a>
+      <a href="entities.html">Существа</a>
+      <a href="items.html">Предметы</a>
+      <a href="clans.html">Кланы</a>
+      <a href="jutsu.html">Техники</a>
+    </div>
+  </div>
+</footer></body></html>

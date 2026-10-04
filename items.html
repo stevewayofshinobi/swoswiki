@@ -1,10 +1,99 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A future database for weapons, clothing, currency, food and special utility items."><meta name="theme-color" content="#0e1210"><title>Items — Way of Shinobi Wiki</title><link rel="icon" href="assets/img/logo.png"><link rel="stylesheet" href="assets/css/style.css"><link rel="manifest" href="site.webmanifest"></head><body><div class="site-shell"><header class="topbar"><div class="wrap nav">
-<a class="brand" href="index.html"><img src="assets/img/logo.png" alt="Way of Shinobi logo"><span class="brand-text"><strong>Way of Shinobi</strong><span>Player Wiki</span></span></a>
-<nav class="navlinks"><a data-nav href="index.html">Home</a><a data-nav href="getting-started.html">Start</a><a data-nav href="clans-jutsu.html">Clans & Jutsu</a><a data-nav href="items.html">Items</a><a data-nav href="entities.html">Entities</a><a data-nav href="changelog.html">Updates</a></nav>
-<div class="search-wrap"><input class="search" data-search aria-label="Search wiki" placeholder="Search wiki..."><span class="search-kbd">/</span><div class="search-results" data-search-results></div></div>
-<button class="menu-btn" data-menu aria-label="Open menu">Menu</button>
-</div></header><div class="mobile-drawer"><a href="index.html">Home</a><a href="getting-started.html">Getting Started</a><a href="clans-jutsu.html">Clans & Jutsu</a><a href="items.html">Items</a><a href="entities.html">Entities</a><a href="villages.html">Villages & NPCs</a><a href="missions.html">Missions</a><a href="progression.html">Progression & Chakra</a><a href="controls.html">Controls</a><a href="faq.html">FAQ</a><a href="changelog.html">Changelog</a><a href="credits.html">Credits</a></div><section class="page-hero"><div class="wrap"><div class="breadcrumbs"><a href="index.html">Home</a> / Items</div><h1>Items</h1><p class="page-lead">A future database for weapons, clothing, currency, food and special utility items.</p><img class="page-icon" src="assets/img/kunai.png" alt=""></div></section><main class="wrap article-layout"><aside class="toc"><div class="toc-title">On this page</div><a href="#categories">Item Categories</a><a href="#featured">Featured Item Example</a><a href="#item-format">Item Entry Format</a></aside><article class="article"><section id="categories"><h2>Item Categories</h2><div class="entry-grid"><div class="entry"><img src="assets/img/kunai.png" alt=""><div><h3>Weapons</h3><p>Kunai, katana, shuriken, senbon and unique weapons.</p></div></div><div class="entry"><img src="assets/img/shinobi-outfit.png" alt=""><div><h3>Clothing</h3><p>Outfits, vests, protectors and cosmetic equipment.</p></div></div><div class="entry"><img src="assets/img/ryo.png" alt=""><div><h3>Currency</h3><p>Ryo denominations and money-related mechanics.</p></div></div><div class="entry"><img src="assets/img/gama-chan.png" alt=""><div><h3>Utility</h3><p>Gama Chan, books, scrolls and special-use items.</p></div></div></div></section><section id="featured"><h2>Featured Item Example</h2><div class="entry"><img src="assets/img/gama-chan.png" alt=""><div><h3>Gama Chan <span class="badge green">Utility</span></h3><p>Wallet item. Right-click to open its personal storage. Replace this short summary with the final exact rules and vendor information.</p></div></div></section><section id="item-format"><h2>Item Entry Format</h2><table class="wiki-table"><tr><th>Field</th><th>What to write</th></tr><tr><td>Name</td><td>Display name + category</td></tr><tr><td>Obtaining</td><td>Crafting, vendor, drop or quest</td></tr><tr><td>Price</td><td>Ryo cost if applicable</td></tr><tr><td>Use</td><td>Right-click / passive / equipment effect</td></tr><tr><td>Notes</td><td>Restrictions, slot, stack size, etc.</td></tr></table><p>Copy <code>templates/item-template.html</code> when you want a dedicated page for an important item.</p></section></article></main><footer class="footer"><div class="wrap"><div class="footer-grid">
-<div><div class="brand"><img src="assets/img/logo.png" alt=""><span class="brand-text"><strong>Steve: Way of Shinobi</strong><span>Community Wiki Template</span></span></div><p>A clean player-facing knowledge base for your Minecraft Fabric mod. Replace the placeholder copy as the mod evolves.</p></div>
-<div><h4>Explore</h4><a href="getting-started.html">Getting Started</a><a href="clans-jutsu.html">Clans & Jutsu</a><a href="items.html">Items</a><a href="entities.html">Entities</a></div>
-<div><h4>Reference</h4><a href="controls.html">Controls</a><a href="faq.html">FAQ</a><a href="changelog.html">Changelog</a><a href="credits.html">Credits</a></div>
-</div><div class="tiny">Unofficial player wiki for Steve: Way of Shinobi. Naruto-inspired fan project. Minecraft is a trademark of Mojang Studios.</div></div></footer></div><script src="assets/js/site.js"></script></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Каталог оружия, одежды, валюты и специальных предметов.">
+  <meta name="theme-color" content="#0e1210">
+  <title>Предметы — Way of Shinobi Wiki</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">S</span>
+      <span><strong>Way of Shinobi</strong><small>Вики по моду</small></span>
+    </a>
+    <nav class="navlinks" aria-label="Основная навигация">
+      <a href="index.html" class="">Главная</a>
+      <a href="getting-started.html" class="">Начало игры</a><a href="entities.html" class="">Существа</a><a href="items.html" class="active">Предметы</a><a href="clans.html" class="">Кланы</a><a href="jutsu.html" class="">Техники</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumbs"><a href="index.html">Главная</a> / Предметы</div>
+      <h1>Предметы</h1>
+      <p class="page-lead">Каталог оружия, одежды, валюты и специальных предметов.</p>
+    </div>
+  </section>
+  <div class="wrap">
+    <article class="article">
+
+      <section>
+        <h2>Как пользоваться разделом</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Здесь можно разбить предметы на категории и затем добавлять отдельные карточки или таблицы.
+        </div>
+      </section>
+
+      <section>
+        <h2>Оружие</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Кунай, катаны, веера и другое оружие. Укажите урон, особенности и способ получения.
+        </div>
+      </section>
+
+      <section>
+        <h2>Одежда и экипировка</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Костюмы, жилеты, протекторы и другая экипировка. Укажите защиту, слот и место покупки.
+        </div>
+      </section>
+
+      <section>
+        <h2>Рё и торговля</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Опишите номиналы валюты, продавцов, цены и связанные с деньгами механики.
+        </div>
+      </section>
+
+      <section>
+        <h2>Особые предметы</h2>
+        <div class="placeholder">
+          <strong>Место для заполнения</strong>
+          Сюда можно добавить Гама Чан, книги, свитки, инструменты и любые предметы с отдельной механикой.
+        </div>
+      </section>
+
+      <div class="page-nav">
+        <a class="btn primary" href="index.html">← На главную</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="brand">
+        <span class="brand-mark">S</span>
+        <span><strong>Steve: Way of Shinobi</strong><small>Игровая вики</small></span>
+      </div>
+      <p>Заготовка вики для игроков. Содержимое можно постепенно дополнять по мере развития мода.</p>
+    </div>
+    <div class="footer-links">
+      <a href="getting-started.html">Начало игры</a>
+      <a href="entities.html">Существа</a>
+      <a href="items.html">Предметы</a>
+      <a href="clans.html">Кланы</a>
+      <a href="jutsu.html">Техники</a>
+    </div>
+  </div>
+</footer></body></html>
